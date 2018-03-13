@@ -1,0 +1,105 @@
+.inner {
+  width: 1000px;
+  /* 要求高度自适应，防止内部浮动影响 */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #818496;
+}
+
+a:hover {
+  color: #38B774;
+}
+
+/* header的logo */
+
+.header {
+  width: 100%;
+  height: 58px;
+  background: #191D3A;
+}
+
+.header .inner .logo {
+  float: left;
+  width: 205px;
+  height: 48px;
+  padding: 10px 0 0 20px;
+}
+
+.header .inner .logo a {
+  display: block;
+  width: 157px;
+  height: 35px;
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+/* 导航栏要浮动都浮动 */
+
+.header .inner .nav {
+  float: left;
+  width: 715px;
+  height: 58px;
+}
+
+.header .inner .nav ul li {
+  float: left;
+  width: 85px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  border-left: 1px solid #252947;
+}
+
+.header .inner .nav ul li a {
+  display: block;
+  font-size: 13px;
+}
+
+.header .inner .nav ul li a:hover {
+  color: #fff;
+}
+
+.header .inner .nav ul li.cur {
+  background: #252947;
+  color: #fff;
+}
+
+.header .inner .nav ul li.join {
+  padding: 12px 0 0 9px;
+  width: 100px;
+  height: 46px;
+}
+
+.header .inner .nav ul li.join a {
+  display: block;
+  width: 98px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #3ACA7A;
+  border-radius: 3px;
+  background: #38B774;
+  color: #fff;
+}
+
+.header .inner .nav ul li.join a:hover {
+  background: #2ba364;
+}
+
+.header .inner .lang {
+  float: right;
+  width: 60px;
+}
+
+.header .inner .lang a{
+  margin-right: 8px;
+  line-height: 58px;
+}
+
+.header .inner .lang a.cur {
+  color: #38B774;
+}
