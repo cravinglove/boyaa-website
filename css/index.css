@@ -269,3 +269,140 @@
 .list .line ol li.active {
   background-color: #2FBC71;
 }
+
+/* content开始 */
+
+.content {
+  width: 100%;
+  height: 310px;
+  padding-bottom: 57px;
+  background: url(../images/indexmainbg.jpg) no-repeat center bottom;
+}
+
+.content .inner .news {
+  float: left;
+  width: 500px;
+  height: 311px;
+  background: url(../images/bynewsbg.jpg) no-repeat 0 -10px;
+}
+
+.content .inner .news .tit {
+  height: 71px;
+  padding: 40px 0 0 217px;
+}
+
+.content .inner .news .tit a {
+  display: block;
+  width: 64px;
+  height: 26px;
+  border: 1px solid #33B972;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 12px;
+  color: #33B972;
+}
+
+.content .inner .news .tit a:hover {
+  background-color: #33B972;
+  color: #fff;
+}
+
+.content .inner .news ul {
+  padding: 0 20px;
+}
+
+.content .inner .news ul li {
+  height: 49px;
+  border-bottom: 1px solid #DBE1E7;
+  line-height: 49px;
+  font-size: 12px;
+}
+
+.content .inner .news ul li a {
+  float: left;
+  width: 410px;
+  color: #444866;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content .inner .news ul li span {
+  float: right;
+  color: #AFC4DC;
+}
+
+.content .inner .job {
+  float: left;
+  width: 500px;
+  height: 310px;
+  background: url(../images/byhrbg3.jpg) no-repeat;
+}
+
+.content .inner .job .tit {
+  height: 70px;
+  padding: 40px 0 0 80px;
+}
+
+.content .inner .job .tit .text {
+  float: left;
+  width: 137px;
+  color: #fff;
+}
+
+.content .inner .job .tit .text h4 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.content .inner .job .tit .text p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.content .inner .job .tit .more{
+  float: left;
+  width: 66px;
+  height: 28px;
+}
+
+.content .inner .job .tit .more a{
+  display: block;
+  width: 64px;
+  height: 26px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 12px;
+  color: #fff;
+  background: #33B972;
+}
+
+.content .inner .job .tit .more a:hover{
+  color: #33B972;
+  background: #fff;
+}
+
+.content .inner .job .work{
+  line-height: 22px;
+  color: #fff;
+  padding-left: 20px;
+  font-weight: bold;
+}
+.content .inner .job ul{
+  padding-left: 20px;
+  width: 305px;
+}
+
+.content .inner .job ul li{
+  line-height: 37px;
+  border-bottom: 1px solid #6FDEA3;
+}
+
+.content .inner .job ul li a{
+  font-size: 12px;
+  color: #fff;
+}
